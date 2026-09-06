@@ -1,5 +1,5 @@
 {
-  "scope": "Selected original-analysis entry point",
+  "scope": "Required external paths for the documented entry point; not a complete upstream acquisition or schema check",
   "required_inputs": [
     {
       "path": "data_work/transactions_raw.parquet",

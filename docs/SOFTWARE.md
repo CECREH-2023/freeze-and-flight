@@ -1,11 +1,5 @@
 # Software requirements
 
-The source requirements file is retained in the root. Install it in an isolated environment; optional branches may need additional packages.
+Use a separate Python environment and install the profile shown in [REPRODUCING.md](REPRODUCING.md). The retained dependency specification describes the research environment. Broad minimum-version constraints are not a reproducible lockfile, and optional stages can require additional software.
 
-## Imported modules
-
-This static inventory includes standard-library, local, and optional modules. It is a navigation aid, not a pip installation list.
-
-`__future__`, `argparse`, `datetime`, `geopandas`, `hashlib`, `importlib`, `json`, `matplotlib`, `numpy`, `os`, `pandas`, `pathlib`, `pyproj`, `scipy`, `shapely`, `shutil`, `sklearn`, `statsmodels`, `typing`, `unittest`, `wildboottest`
-
-The runtime and scope of checks actually performed are recorded in `../VALIDATION.json`.
+The commands and statistical checks actually executed are recorded in [VALIDATION.json](../VALIDATION.json). Installing a dependency specification alone does not demonstrate end-to-end reproduction.

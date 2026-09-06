@@ -26,4 +26,4 @@ spreg>=1.3.0
 mgwr>=2.2.0
 
 # Quarto CLI (binary) is required to render QMDs.
-# Local install used by this repo: tools/bin/quarto
+# Manuscript source and a Quarto binary are not included in this code release.

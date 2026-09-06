@@ -1,6 +1,6 @@
 # Source guide
 
-Paths below refer to the distributed source. Analysis modules may require external inputs; inclusion does not imply the entire source workflow has been executed.
+Start with [REPRODUCING.md](REPRODUCING.md) for the supported entry point and its inputs. The modules below also include upstream preparation and supplementary analyses. Their presence does not establish that every stage is runnable from bundled data.
 
 | Module | Purpose |
 |---|---|
@@ -8,6 +8,5 @@ Paths below refer to the distributed source. Analysis modules may require extern
 | [src/07_estimation/flood_market_composition.py](../src/07_estimation/flood_market_composition.py) | Estimate descriptive changes in deed composition and prices after the 2019 Nebraska flood. |
 | [src/08_figures/flood_market_manuscript_inputs.py](../src/08_figures/flood_market_manuscript_inputs.py) | Export validated aggregate composition evidence and three main figures. |
 | [src/transaction_mode.py](../src/transaction_mode.py) | Transaction-mode provenance and validation helpers. |
-| [src/utils/__init__.py](../src/utils/__init__.py) | Utility modules for Freeze and Flight analysis. |
 | [src/utils/figure_style.py](../src/utils/figure_style.py) | Figure styling configuration for Freeze and Flight manuscript. |
 | [tests/test_flood_market_composition.py](../tests/test_flood_market_composition.py) | Scientific invariants for the expanded-footprint analysis. |

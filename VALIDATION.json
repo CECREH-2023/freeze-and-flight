@@ -8,10 +8,11 @@
       "errors": []
     },
     "text_hygiene": {
-      "files": 30,
+      "files": 33,
       "findings": []
     },
     "relative_document_links": {
+      "checked": 29,
       "broken": []
     }
   },
@@ -25,5 +26,11 @@
       "runtime": "Existing project virtual environment"
     }
   ],
-  "license_file_present": false
+  "license_file_present": false,
+  "documentation_review": {
+    "date": "2026-09-06",
+    "scope": "README, methods, setup, data definitions, provenance, citation guidance, and configuration entry points checked against distributed files and available source evidence. Original scientific-check scope remains as recorded below.",
+    "command_targets_checked": 1,
+    "findings": []
+  }
 }
