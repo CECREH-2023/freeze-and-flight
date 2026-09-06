@@ -1,0 +1,9 @@
+year,cpi,series,period,source
+2015,224.21,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2016,226.115,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2017,229.874,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2018,234.29,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2019,237.776,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2020,240.04,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2021,252.242,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true
+2022,272.401,CUUR0200SA0,M13,https://api.bls.gov/publicAPI/v2/timeseries/data/CUUR0200SA0?startyear=2015&endyear=2022&annualaverage=true

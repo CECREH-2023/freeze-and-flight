@@ -1,0 +1,41 @@
+{
+  "scope": "Selected original-analysis entry point",
+  "required_inputs": [
+    {
+      "path": "data_work/transactions_raw.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/transactions_linked.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/parcel_boundary_distances.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/parcel_centroids.gpkg",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/assessor_raw.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/panel_parcel_month.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data_work/restricted/grantee_classification/grantee_model_labels.parquet",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data/external/ownership_model/data/processed/standardized_training_dataset_final.csv",
+      "availability": "external; not bundled"
+    },
+    {
+      "path": "data/external/ownership_model/results/production_classification_results/owner_type_mapping_20250802_192450.csv",
+      "availability": "external; not bundled"
+    }
+  ]
+}

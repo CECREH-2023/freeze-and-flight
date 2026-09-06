@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-06",
+  "package": "freeze-and-flight",
+  "reproduction_scope": "Scientific unit checks verified; deed-level data and ownership-model inputs remain external.",
+  "checks": {
+    "python_syntax": {
+      "files": 9,
+      "errors": []
+    },
+    "text_hygiene": {
+      "files": 30,
+      "findings": []
+    },
+    "relative_document_links": {
+      "broken": []
+    }
+  },
+  "scientific_checks": [
+    {
+      "check": "Focused model invariants",
+      "status": "passed",
+      "tests": 10,
+      "command": "python -m unittest discover -s tests -p test_flood_market_composition.py",
+      "scope": "Unit checks only; no full deed-data estimation",
+      "runtime": "Existing project virtual environment"
+    }
+  ],
+  "license_file_present": false
+}
